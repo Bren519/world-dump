@@ -1,0 +1,76 @@
+[31Jul2020 22:44:55.910] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.2.0, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge]
+[31Jul2020 22:44:55.914] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.0+69+master.79f13f7 starting: java version 1.8.0_251 by Oracle Corporation
+[31Jul2020 22:44:56.567] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[31Jul2020 22:44:58.359] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[31Jul2020 22:44:58.653] [main/INFO] [net.minecraftforge.coremod.CoreMod.immersiveengineering/COREMODLOG]: Inserted block update callback
+[31Jul2020 22:44:59.020] [main/INFO] [net.minecraftforge.coremod.CoreMod.immersiveengineering/COREMODLOG]: Inserted wire collision callback
+[31Jul2020 22:45:12.918] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[31Jul2020 22:45:12.919] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Jul2020 22:45:12.920] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Jul2020 22:45:12.921] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[31Jul2020 22:45:12.922] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Jul2020 22:45:13.645] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.2
+[31Jul2020 22:45:13.658] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[31Jul2020 22:45:13.676] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_251]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_251]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_251]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_251]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_251]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_251]
+	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:105) [?:?]
+[31Jul2020 22:45:14.347] [Server thread/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Error during pre-loading phase
+net.minecraftforge.fml.ModLoadingException: Mod §ebotania§r requires §6forge§r §o31.2.13 or above§r
+§7Currently, §6forge§r§7 is §o31.2.0
+	at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:63) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:1.8.0_251]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.ReferencePipeline$7$1.accept(Unknown Source) ~[?:1.8.0_251]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.ReferencePipeline.collect(Unknown Source) ~[?:1.8.0_251]
+	at net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:118) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.get(ModLoader.java:147) [?:?]
+	at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) [?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:122) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:613) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_251]
+[31Jul2020 22:45:14.361] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Mod §ebotania§r requires §6forge§r §o31.2.13 or above§r
+§7Currently, §6forge§r§7 is §o31.2.0,
+	Mod §ecraftingstation§r requires §6extratags§r §o1.0 or above§r
+§7Currently, §6extratags§r§7 is §o§nnot installed
+]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:184) ~[?:?]
+	at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:122) ~[?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:613) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_251]
+[31Jul2020 22:45:14.386] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: C:\Users\bgduh\Desktop\server\.\crash-reports\crash-2020-07-31_22.45.14-server.txt
+[31Jul2020 22:45:14.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[31Jul2020 22:45:14.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[31Jul2020 22:45:14.473] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Exception stopping the server
+java.lang.RuntimeException: The server has failed to initialize correctly due to mod loading errors. Examine the crash report for more details.
+	at net.minecraftforge.common.DimensionManager.getWorld(DimensionManager.java:185) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_71218_a(MinecraftServer.java:1004) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213211_a(MinecraftServer.java:536) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_71260_j(MinecraftServer.java:568) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71260_j(DedicatedServer.java:550) ~[?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:676) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_251]

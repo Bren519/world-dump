@@ -1,0 +1,94 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 7/31/20 10:45 PM
+Description: Exception in server tick loop
+
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Mod §ebotania§r requires §6forge§r §o31.2.13 or above§r
+§7Currently, §6forge§r§7 is §o31.2.0,
+	Mod §ecraftingstation§r requires §6extratags§r §o1.0 or above§r
+§7Currently, §6extratags§r§7 is §o§nnot installed
+]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:184) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) ~[?:?] {re:classloading}
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:122) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:613) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_251] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.15.2
+	Minecraft Version ID: 1.15.2
+	Operating System: Windows 10 (x86) version 10.0
+	Java Version: 1.8.0_251, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode), Oracle Corporation
+	Memory: 39773880 bytes (37 MB) / 259522560 bytes (247 MB) up to 259522560 bytes (247 MB)
+	CPUs: 4
+	JVM Flags: 0 total; 
+	ModLauncher: 5.1.0+69+master.79f13f7
+	ModLauncher launch target: fmlserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/eventbus-2.2.0-service.jar eventbus PLUGINSERVICE 
+		/forge.jar object_holder_definalize PLUGINSERVICE 
+		/forge.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-2.1.1-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge.jar capability_inject_definalize PLUGINSERVICE 
+		/forge.jar runtimedistcleaner PLUGINSERVICE 
+		/forge.jar fml TRANSFORMATIONSERVICE 
+	FML: 31.2
+	Forge: net.minecraftforge:31.2.0
+	FML Language Providers: 
+		javafml@31.2
+		minecraft@1
+	Mod List: 
+		forge-1.15.2-31.2.0-server.jar Minecraft {minecraft@1.15.2 NONE}
+		CyclopsCore-1.15.2-1.8.0.jar Cyclops Core {cyclopscore@1.8.0 NONE}
+		CommonCapabilities-1.15.2-2.5.2.jar CommonCapabilities {commoncapabilities@2.5.2 NONE}
+		ToolBelt-1.15.2-1.14.1.jar Tool Belt {toolbelt@1.14.1 NONE}
+		Cucumber-1.15.2-3.0.9.jar Cucumber Library {cucumber@3.0.9 NONE}
+		ImmersiveEngineering-0.15-108.jar Immersive Engineering {immersiveengineering@0.15-108 NONE}
+		BiomesOPlenty-1.15.2-10.0.0.366-universal.jar Biomes O' Plenty {biomesoplenty@1.15.2-10.0.0.366 NONE}
+		Floocraft+1.15.2-1.11.0.jar Floocraft {floocraftft@1.11.0 NONE}
+		craftingstation-3.1.0.jar Crafting Station {craftingstation@3.1.0 NONE}
+		Bountiful+Baubles-1.15.2-0.0.1.jar Bountiful Baubles {bountifulbaubles@NONE NONE}
+		jei-1.15.2-6.0.2.12.jar Just Enough Items {jei@6.0.2.12 NONE}
+		Botania-r1.15-387.jar Botania {botania@r1.15-387 NONE}
+		aether+worlds.jar aether worlds {aether_worlds@1.0.0 NONE}
+		Uppers-0.2.12.jar Uppers {uppers@0.2.12 NONE}
+		curios-FORGE-1.15.2-2.0.2.4.jar Curios API {curios@FORGE-1.15.2-2.0.2.4 NONE}
+		Quark-r2.1-245.jar Quark {quark@r2.1-245 NONE}
+		Patchouli-1.15.2-1.2-35.jar Patchouli {patchouli@1.15.2-1.2-35 NONE}
+		create-mc1.15.2_v0.2.4d.jar Create {create@mc1.15.2_v0.2.4d NONE}
+		IntegratedDynamics-1.15.2-1.1.13.jar IntegratedDynamics {integrateddynamics@1.1.13 NONE, integrateddynamicscompat@1.1.13 NONE}
+		ForgeEndertech-1.15.2-6.0.4.0-build.0044.jar Forge Endertech {forgeendertech@6.0.4.0 NONE}
+		journeymap-1.15.2-5.7.0b3.jar Journeymap {journeymap@5.7.0b3 NONE}
+		extlights-2.1.jar Extended Lights {extlights@2.1 NONE}
+		Placebo-1.15.2-3.1.0.jar Placebo {placebo@3.1.0 NONE}
+		AutoRegLib-1.5-40.jar AutoRegLib {autoreglib@1.5-40 NONE}
+		TravelersBackpack-1.15.2-4.0.6.jar Traveler's Backpack {travelersbackpack@4.0.6 NONE}
+		StorageDrawers-1.15.2-7.0.2.jar Storage Drawers {storagedrawers@1.15.2-7.0.1 NONE}
+		AdHooks-1.15.2-5.1.0.0-build.0046.jar Advanced Hook Launchers {adhooks@5.1.0.0 NONE}
+		structurize-0.13.31-RELEASE.jar Structurize {structurize@0.13.31-RELEASE NONE}
+		Reliquary-1.15.2-1.3.4.995.jar Reliquary {xreliquary@1.15.2-1.3.4.995 NONE}
+		PickleTweaks-1.15.2-4.0.4.jar Pickle Tweaks {pickletweaks@4.0.4 NONE}
+		simpleplanes-1.15.2-2.0.3.0.jar Simple Planes {simpleplanes@2.0.3.0 NONE}
+		mcw-roofs-1.0.2-mc1.15.2_1.15.1.jar Macaw's Roofs {mcwroofs@1.0.2 NONE}
+		Apotheosis-1.15.2-3.2.4.jar Apotheosis {apotheosis@3.2.4 NONE}
+		mcw-doors-1.0.0-mc1.15.2.jar Macaw's Doors {mcwdoors@1.0.0 NONE}
+		Hwyla-Mod-1.15.2.jar Waila {waila@version NONE}
+		walljump-forge-1.15.2-1.3.5.jar Wall-Jump! {walljump@1.15.2-1.3.5 NONE}
+		JustEnoughResources-1.15.2-0.10.1.77.jar Just Enough Resources {jeresources@0.10.1.77 NONE}
+		forge-1.15.2-31.2.0-universal.jar Forge {forge@31.2.0 NONE}
+		ruins-1.15.2.1.jar Ruins {ruins@1.15.2.1 NONE}
+		tinyprogressions-1.15.2-4.0.7.jar Tiny Progressions {tp@4.0.7 NONE}
+		ironchest-1.15.2-10.0.3.jar Iron Chests {ironchest@1.15.2-10.0.1 NONE}
+		Cyclic-1.15.2-0.6.1 (1).jar Cyclic {cyclic@1.15.2-0.6.1 NONE}
+	Data Packs: 
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)

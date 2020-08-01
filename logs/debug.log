@@ -1,0 +1,563 @@
+[31Jul2020 22:44:55.910] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.2.0, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge]
+[31Jul2020 22:44:55.914] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.0+69+master.79f13f7 starting: java version 1.8.0_251 by Oracle Corporation
+[31Jul2020 22:44:55.923] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,testharness,fmlclient,fmlserver]
+[31Jul2020 22:44:55.934] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : []
+[31Jul2020 22:44:55.958] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [eventbus,object_holder_definalize,runtime_enum_extender,accesstransformer,capability_inject_definalize,runtimedistcleaner]
+[31Jul2020 22:44:55.973] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[31Jul2020 22:44:56.003] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: []
+[31Jul2020 22:44:56.015] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [fml]
+[31Jul2020 22:44:56.015] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[31Jul2020 22:44:56.016] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[31Jul2020 22:44:56.016] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/]: Injecting tracing printstreams for STDOUT/STDERR.
+[31Jul2020 22:44:56.019] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 31.2
+[31Jul2020 22:44:56.019] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 31.2 loading
+[31Jul2020 22:44:56.019] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 5.1.0+69+master.79f13f7
+[31Jul2020 22:44:56.019] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Initializing modjar URL handler
+[31Jul2020 22:44:56.019] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 2.1.1+55+master.08d32b9
+[31Jul2020 22:44:56.020] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 2.2.0+59+master.4f71e48
+[31Jul2020 22:44:56.020] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[31Jul2020 22:44:56.023] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 2.0.3+8+master.ca72757
+[31Jul2020 22:44:56.023] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 2.1.2+9+master.a8b4d92
+[31Jul2020 22:44:56.023] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 3
+[31Jul2020 22:44:56.567] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[31Jul2020 22:44:56.568] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[31Jul2020 22:44:56.570] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[31Jul2020 22:44:56.578] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[31Jul2020 22:44:56.578] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[31Jul2020 22:44:56.578] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[31Jul2020 22:44:56.579] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\bgduh\Desktop\server
+[31Jul2020 22:44:56.580] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\bgduh\Desktop\server
+[31Jul2020 22:44:56.580] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\Users\bgduh\Desktop\server\mods
+[31Jul2020 22:44:56.580] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\bgduh\Desktop\server\mods
+[31Jul2020 22:44:56.580] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\Users\bgduh\Desktop\server\config
+[31Jul2020 22:44:56.580] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\bgduh\Desktop\server\config
+[31Jul2020 22:44:56.581] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\bgduh\Desktop\server\config\fml.toml
+[31Jul2020 22:44:56.581] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[31Jul2020 22:44:56.629] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\Users\bgduh\Desktop\server\defaultconfigs
+[31Jul2020 22:44:56.629] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[31Jul2020 22:44:56.629] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using fmlserver as launch service
+[31Jul2020 22:44:56.637] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : MC Version: '1.15.2' MCP Version: '20200515.085601' Forge Version: '31.2.0' Forge group: 'net.minecraftforge'
+[31Jul2020 22:44:56.638] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR asm at path C:\Users\bgduh\Desktop\server\libraries\org\ow2\asm\asm\7.2\asm-7.2.jar
+[31Jul2020 22:44:56.638] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found probable library path C:\Users\bgduh\Desktop\server\libraries
+[31Jul2020 22:44:56.639] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found forge path C:\Users\bgduh\Desktop\server\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-universal.jar is present
+[31Jul2020 22:44:56.639] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: SRG MC at C:\Users\bgduh\Desktop\server\libraries\net\minecraft\server\1.15.2-20200515.085601\server-1.15.2-20200515.085601-srg.jar is present
+[31Jul2020 22:44:56.639] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: MC Extras at C:\Users\bgduh\Desktop\server\libraries\net\minecraft\server\1.15.2\server-1.15.2-extra.jar is present
+[31Jul2020 22:44:56.639] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Forge patches at C:\Users\bgduh\Desktop\server\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-server.jar is present
+[31Jul2020 22:44:56.642] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 0 language providers
+[31Jul2020 22:44:56.643] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding forge as a language from C:\Users\bgduh\Desktop\server\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-universal.jar
+[31Jul2020 22:44:56.645] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding file:/C:/Users/bgduh/Desktop/server/libraries/net/minecraftforge/forge/1.15.2-31.2.0/forge-1.15.2-31.2.0-universal.jar to languageloader classloader
+[31Jul2020 22:44:56.696] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
+[31Jul2020 22:44:56.698] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 31.2
+[31Jul2020 22:44:56.704] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1
+[31Jul2020 22:44:56.706] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[31Jul2020 22:44:56.707] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[31Jul2020 22:44:56.707] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[31Jul2020 22:44:56.707] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[31Jul2020 22:44:56.708] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[31Jul2020 22:44:56.708] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[31Jul2020 22:44:56.724] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[31Jul2020 22:44:56.742] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null)
+[31Jul2020 22:44:56.952] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\AdHooks-1.15.2-5.1.0.0-build.0046.jar
+[31Jul2020 22:44:56.993] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file AdHooks-1.15.2-5.1.0.0-build.0046.jar with {adhooks} mods - versions {5.1.0.0}
+[31Jul2020 22:44:56.993] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\AdHooks-1.15.2-5.1.0.0-build.0046.jar with language javafml
+[31Jul2020 22:44:56.994] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\aether+worlds.jar
+[31Jul2020 22:44:56.996] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file aether+worlds.jar with {aether_worlds} mods - versions {1.0.0}
+[31Jul2020 22:44:56.996] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\aether+worlds.jar with language javafml
+[31Jul2020 22:44:56.996] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\Apotheosis-1.15.2-3.2.4.jar
+[31Jul2020 22:44:57.001] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Apotheosis-1.15.2-3.2.4.jar with {apotheosis} mods - versions {3.2.4}
+[31Jul2020 22:44:57.002] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\Apotheosis-1.15.2-3.2.4.jar with language javafml
+[31Jul2020 22:44:57.123] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod trueInfinity with Javascript path apothasm/true-infinity.js
+[31Jul2020 22:44:57.128] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod sundering with Javascript path apothasm/sundering.js
+[31Jul2020 22:44:57.129] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod enchData with Javascript path apothasm/enchantment-datas.js
+[31Jul2020 22:44:57.129] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod tempting with Javascript path apothasm/tempting.js
+[31Jul2020 22:44:57.129] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod reflective with Javascript path apothasm/reflective.js
+[31Jul2020 22:44:57.129] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod itemEnch with Javascript path apothasm/item-ench.js
+[31Jul2020 22:44:57.129] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod calcStackEnch with Javascript path apothasm/calc-stack-ench.js
+[31Jul2020 22:44:57.130] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod containerRepair with Javascript path apothasm/container-repair.js
+[31Jul2020 22:44:57.130] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod enchAffix with Javascript path apothasm/enchantability.js
+[31Jul2020 22:44:57.130] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod guiRepair with Javascript path apothasm/gui-repair.js
+[31Jul2020 22:44:57.130] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod combatRules with Javascript path apothasm/combat-rules.js
+[31Jul2020 22:44:57.130] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod fishingBobber with Javascript path apothasm/fishing-bobber.js
+[31Jul2020 22:44:57.130] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod affixDmg with Javascript path apothasm/affix-entity-dmg.js
+[31Jul2020 22:44:57.130] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod affixEntity with Javascript path apothasm/affix-extra-dmg.js
+[31Jul2020 22:44:57.130] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod affixProt with Javascript path apothasm/affix-prot-level.js
+[31Jul2020 22:44:57.134] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod affixUser with Javascript path apothasm/affix-user-hurt.js
+[31Jul2020 22:44:57.135] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod stackUUID with Javascript path apothasm/stack-modifier-hack.js
+[31Jul2020 22:44:57.135] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod itemUseHook with Javascript path apothasm/item-use-hook.js
+[31Jul2020 22:44:57.135] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod quarkMatrix with Javascript path apothasm/quark-matrix.js
+[31Jul2020 22:44:57.140] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod apothasm/true-infinity.js
+[31Jul2020 22:44:57.140] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod apothasm/sundering.js
+[31Jul2020 22:44:57.142] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod apothasm/enchantment-datas.js
+[31Jul2020 22:44:57.142] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod apothasm/tempting.js
+[31Jul2020 22:44:57.143] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod apothasm/reflective.js
+[31Jul2020 22:44:57.143] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod apothasm/item-ench.js
+[31Jul2020 22:44:57.143] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod apothasm/calc-stack-ench.js
+[31Jul2020 22:44:57.143] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod apothasm/container-repair.js
+[31Jul2020 22:44:57.143] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod apothasm/enchantability.js
+[31Jul2020 22:44:57.144] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod apothasm/gui-repair.js
+[31Jul2020 22:44:57.144] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod apothasm/combat-rules.js
+[31Jul2020 22:44:57.185] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod apothasm/fishing-bobber.js
+[31Jul2020 22:44:57.186] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod apothasm/affix-entity-dmg.js
+[31Jul2020 22:44:57.187] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod apothasm/affix-extra-dmg.js
+[31Jul2020 22:44:57.187] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod apothasm/affix-prot-level.js
+[31Jul2020 22:44:57.187] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod apothasm/affix-user-hurt.js
+[31Jul2020 22:44:57.187] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod apothasm/stack-modifier-hack.js
+[31Jul2020 22:44:57.187] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod apothasm/item-use-hook.js
+[31Jul2020 22:44:57.187] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod apothasm/quark-matrix.js
+[31Jul2020 22:44:57.187] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\AutoRegLib-1.5-40.jar
+[31Jul2020 22:44:57.189] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file AutoRegLib-1.5-40.jar with {autoreglib} mods - versions {1.5-40}
+[31Jul2020 22:44:57.189] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\AutoRegLib-1.5-40.jar with language javafml
+[31Jul2020 22:44:57.189] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\BiomesOPlenty-1.15.2-10.0.0.366-universal.jar
+[31Jul2020 22:44:57.192] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file BiomesOPlenty-1.15.2-10.0.0.366-universal.jar with {biomesoplenty} mods - versions {1.15.2-10.0.0.366}
+[31Jul2020 22:44:57.192] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\BiomesOPlenty-1.15.2-10.0.0.366-universal.jar with language javafml
+[31Jul2020 22:44:57.193] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\Botania-r1.15-387.jar
+[31Jul2020 22:44:57.196] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Botania-r1.15-387.jar with {botania} mods - versions {r1.15-387}
+[31Jul2020 22:44:57.196] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\Botania-r1.15-387.jar with language javafml
+[31Jul2020 22:44:57.196] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\Bountiful+Baubles-1.15.2-0.0.1.jar
+[31Jul2020 22:44:57.201] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Bountiful+Baubles-1.15.2-0.0.1.jar with {bountifulbaubles} mods - versions {NONE}
+[31Jul2020 22:44:57.201] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\Bountiful+Baubles-1.15.2-0.0.1.jar with language javafml
+[31Jul2020 22:44:57.201] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\CommonCapabilities-1.15.2-2.5.2.jar
+[31Jul2020 22:44:57.205] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file CommonCapabilities-1.15.2-2.5.2.jar with {commoncapabilities} mods - versions {2.5.2}
+[31Jul2020 22:44:57.205] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\CommonCapabilities-1.15.2-2.5.2.jar with language javafml
+[31Jul2020 22:44:57.205] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\craftingstation-3.1.0.jar
+[31Jul2020 22:44:57.207] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file craftingstation-3.1.0.jar with {craftingstation} mods - versions {3.1.0}
+[31Jul2020 22:44:57.207] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\craftingstation-3.1.0.jar with language javafml
+[31Jul2020 22:44:57.207] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\create-mc1.15.2_v0.2.4d.jar
+[31Jul2020 22:44:57.211] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file create-mc1.15.2_v0.2.4d.jar with {create} mods - versions {mc1.15.2_v0.2.4d}
+[31Jul2020 22:44:57.211] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\create-mc1.15.2_v0.2.4d.jar with language javafml
+[31Jul2020 22:44:57.212] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\Cucumber-1.15.2-3.0.9.jar
+[31Jul2020 22:44:57.213] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Cucumber-1.15.2-3.0.9.jar with {cucumber} mods - versions {3.0.9}
+[31Jul2020 22:44:57.213] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\Cucumber-1.15.2-3.0.9.jar with language javafml
+[31Jul2020 22:44:57.219] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\curios-FORGE-1.15.2-2.0.2.4.jar
+[31Jul2020 22:44:57.241] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file curios-FORGE-1.15.2-2.0.2.4.jar with {curios} mods - versions {FORGE-1.15.2-2.0.2.4}
+[31Jul2020 22:44:57.241] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\curios-FORGE-1.15.2-2.0.2.4.jar with language javafml
+[31Jul2020 22:44:57.243] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\Cyclic-1.15.2-0.6.1 (1).jar
+[31Jul2020 22:44:57.252] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Cyclic-1.15.2-0.6.1 (1).jar with {cyclic} mods - versions {1.15.2-0.6.1}
+[31Jul2020 22:44:57.252] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\Cyclic-1.15.2-0.6.1 (1).jar with language javafml
+[31Jul2020 22:44:57.253] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\CyclopsCore-1.15.2-1.8.0.jar
+[31Jul2020 22:44:57.263] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file CyclopsCore-1.15.2-1.8.0.jar with {cyclopscore} mods - versions {1.8.0}
+[31Jul2020 22:44:57.263] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\CyclopsCore-1.15.2-1.8.0.jar with language javafml
+[31Jul2020 22:44:57.263] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\extlights-2.1.jar
+[31Jul2020 22:44:57.268] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file extlights-2.1.jar with {extlights} mods - versions {2.1}
+[31Jul2020 22:44:57.268] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\extlights-2.1.jar with language javafml
+[31Jul2020 22:44:57.269] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\Floocraft+1.15.2-1.11.0.jar
+[31Jul2020 22:44:57.270] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Floocraft+1.15.2-1.11.0.jar with {floocraftft} mods - versions {1.11.0}
+[31Jul2020 22:44:57.270] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\Floocraft+1.15.2-1.11.0.jar with language javafml
+[31Jul2020 22:44:57.272] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\ForgeEndertech-1.15.2-6.0.4.0-build.0044.jar
+[31Jul2020 22:44:57.276] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ForgeEndertech-1.15.2-6.0.4.0-build.0044.jar with {forgeendertech} mods - versions {6.0.4.0}
+[31Jul2020 22:44:57.276] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\ForgeEndertech-1.15.2-6.0.4.0-build.0044.jar with language javafml
+[31Jul2020 22:44:57.277] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod campfire_smoke_hook with Javascript path coremods/campfire_smoke_hook.js
+[31Jul2020 22:44:57.277] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod random_tick_hook with Javascript path coremods/random_tick_hook.js
+[31Jul2020 22:44:57.277] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/campfire_smoke_hook.js
+[31Jul2020 22:44:57.277] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/random_tick_hook.js
+[31Jul2020 22:44:57.277] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\Hwyla-Mod-1.15.2.jar
+[31Jul2020 22:44:57.278] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Hwyla-Mod-1.15.2.jar with {waila} mods - versions {version}
+[31Jul2020 22:44:57.278] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\Hwyla-Mod-1.15.2.jar with language javafml
+[31Jul2020 22:44:57.278] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\ImmersiveEngineering-0.15-108.jar
+[31Jul2020 22:44:57.279] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ImmersiveEngineering-0.15-108.jar with {immersiveengineering} mods - versions {0.15-108}
+[31Jul2020 22:44:57.279] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\ImmersiveEngineering-0.15-108.jar with language javafml
+[31Jul2020 22:44:57.282] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod IE wire damage with Javascript path asm/wiredamage.js
+[31Jul2020 22:44:57.282] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod IE arm angle adjustment with Javascript path asm/arm_angles.js
+[31Jul2020 22:44:57.282] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod IE block update callback with Javascript path asm/blockwirecollisions.js
+[31Jul2020 22:44:57.283] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/wiredamage.js
+[31Jul2020 22:44:57.283] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/arm_angles.js
+[31Jul2020 22:44:57.283] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/blockwirecollisions.js
+[31Jul2020 22:44:57.283] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\IntegratedDynamics-1.15.2-1.1.13.jar
+[31Jul2020 22:44:57.285] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file IntegratedDynamics-1.15.2-1.1.13.jar with {integrateddynamics,integrateddynamicscompat} mods - versions {1.1.13,1.1.13}
+[31Jul2020 22:44:57.285] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\IntegratedDynamics-1.15.2-1.1.13.jar with language javafml
+[31Jul2020 22:44:57.285] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\ironchest-1.15.2-10.0.3.jar
+[31Jul2020 22:44:57.286] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ironchest-1.15.2-10.0.3.jar with {ironchest} mods - versions {1.15.2-10.0.1}
+[31Jul2020 22:44:57.286] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\ironchest-1.15.2-10.0.3.jar with language javafml
+[31Jul2020 22:44:57.286] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\jei-1.15.2-6.0.2.12.jar
+[31Jul2020 22:44:57.287] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.15.2-6.0.2.12.jar with {jei} mods - versions {6.0.2.12}
+[31Jul2020 22:44:57.287] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\jei-1.15.2-6.0.2.12.jar with language javafml
+[31Jul2020 22:44:57.287] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\journeymap-1.15.2-5.7.0b3.jar
+[31Jul2020 22:44:57.289] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file journeymap-1.15.2-5.7.0b3.jar with {journeymap} mods - versions {5.7.0b3}
+[31Jul2020 22:44:57.289] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\journeymap-1.15.2-5.7.0b3.jar with language javafml
+[31Jul2020 22:44:57.289] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod journeymap transformer with Javascript path render-event-transformer.js
+[31Jul2020 22:44:57.301] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod render-event-transformer.js
+[31Jul2020 22:44:57.301] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\JustEnoughResources-1.15.2-0.10.1.77.jar
+[31Jul2020 22:44:57.303] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file JustEnoughResources-1.15.2-0.10.1.77.jar with {jeresources} mods - versions {0.10.1.77}
+[31Jul2020 22:44:57.303] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\JustEnoughResources-1.15.2-0.10.1.77.jar with language javafml
+[31Jul2020 22:44:57.304] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\mcw-doors-1.0.0-mc1.15.2.jar
+[31Jul2020 22:44:57.304] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mcw-doors-1.0.0-mc1.15.2.jar with {mcwdoors} mods - versions {1.0.0}
+[31Jul2020 22:44:57.304] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\mcw-doors-1.0.0-mc1.15.2.jar with language javafml
+[31Jul2020 22:44:57.305] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\mcw-roofs-1.0.2-mc1.15.2_1.15.1.jar
+[31Jul2020 22:44:57.306] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mcw-roofs-1.0.2-mc1.15.2_1.15.1.jar with {mcwroofs} mods - versions {1.0.2}
+[31Jul2020 22:44:57.306] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\mcw-roofs-1.0.2-mc1.15.2_1.15.1.jar with language javafml
+[31Jul2020 22:44:57.306] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\Patchouli-1.15.2-1.2-35.jar
+[31Jul2020 22:44:57.307] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Patchouli-1.15.2-1.2-35.jar with {patchouli} mods - versions {1.15.2-1.2-35}
+[31Jul2020 22:44:57.307] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\Patchouli-1.15.2-1.2-35.jar with language javafml
+[31Jul2020 22:44:57.308] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod patchouli_on_advancement with Javascript path asm/on_advancement.js
+[31Jul2020 22:44:57.308] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/on_advancement.js
+[31Jul2020 22:44:57.308] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\PickleTweaks-1.15.2-4.0.4.jar
+[31Jul2020 22:44:57.309] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file PickleTweaks-1.15.2-4.0.4.jar with {pickletweaks} mods - versions {4.0.4}
+[31Jul2020 22:44:57.309] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\PickleTweaks-1.15.2-4.0.4.jar with language javafml
+[31Jul2020 22:44:57.309] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\Placebo-1.15.2-3.1.0.jar
+[31Jul2020 22:44:57.309] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Placebo-1.15.2-3.1.0.jar with {placebo} mods - versions {3.1.0}
+[31Jul2020 22:44:57.309] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\Placebo-1.15.2-3.1.0.jar with language javafml
+[31Jul2020 22:44:57.310] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod block-statemap with Javascript path javascript/block-statemap.js
+[31Jul2020 22:44:57.310] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod item-statemap with Javascript path javascript/item-statemap.js
+[31Jul2020 22:44:57.310] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod javascript/block-statemap.js
+[31Jul2020 22:44:57.310] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod javascript/item-statemap.js
+[31Jul2020 22:44:57.310] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\Quark-r2.1-245.jar
+[31Jul2020 22:44:57.311] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Quark-r2.1-245.jar with {quark} mods - versions {r2.1-245}
+[31Jul2020 22:44:57.311] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\Quark-r2.1-245.jar with language javafml
+[31Jul2020 22:44:57.311] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod quark_piston_structure_helper_override with Javascript path asm/piston-structure-helper-override.js
+[31Jul2020 22:44:57.311] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod quark_pistons_move_tes with Javascript path asm/pistons-move-tes.js
+[31Jul2020 22:44:57.311] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod quark_emotes with Javascript path asm/emotes.js
+[31Jul2020 22:44:57.311] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod quark_fortune_hoes with Javascript path asm/fortune-hoes.js
+[31Jul2020 22:44:57.312] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod quark_improved_sleeping with Javascript path asm/improved-sleeping.js
+[31Jul2020 22:44:57.312] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod quark_items_in_chat with Javascript path asm/items-in-chat.js
+[31Jul2020 22:44:57.312] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod quark_springy_slime with Javascript path asm/springy-slime.js
+[31Jul2020 22:44:57.312] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod quark_pickarang with Javascript path asm/pickarang.js
+[31Jul2020 22:44:57.312] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod quark_chain_linkage with Javascript path asm/chain-linkage.js
+[31Jul2020 22:44:57.312] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod quark_feeding_trough with Javascript path asm/feeding-trough.js
+[31Jul2020 22:44:57.312] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod quark_crabs with Javascript path asm/crabs.js
+[31Jul2020 22:44:57.312] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod quark_chests_in_boats with Javascript path asm/chests-in-boats.js
+[31Jul2020 22:44:57.312] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod quark_rotation_lock with Javascript path asm/rotation-lock.js
+[31Jul2020 22:44:57.312] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod quark_enchanted_book_tooltips with Javascript path asm/enchanted-book-tooltips.js
+[31Jul2020 22:44:57.312] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod quark_ancient_tomes with Javascript path asm/ancient-tomes.js
+[31Jul2020 22:44:57.312] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod quark_colored_enchantment_glint with Javascript path asm/colored-enchantment-glint.js
+[31Jul2020 22:44:57.312] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/piston-structure-helper-override.js
+[31Jul2020 22:44:57.312] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/pistons-move-tes.js
+[31Jul2020 22:44:57.312] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/emotes.js
+[31Jul2020 22:44:57.313] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/fortune-hoes.js
+[31Jul2020 22:44:57.313] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/improved-sleeping.js
+[31Jul2020 22:44:57.313] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/items-in-chat.js
+[31Jul2020 22:44:57.313] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/springy-slime.js
+[31Jul2020 22:44:57.313] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/pickarang.js
+[31Jul2020 22:44:57.313] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/chain-linkage.js
+[31Jul2020 22:44:57.313] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/feeding-trough.js
+[31Jul2020 22:44:57.313] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/crabs.js
+[31Jul2020 22:44:57.313] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/chests-in-boats.js
+[31Jul2020 22:44:57.313] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/rotation-lock.js
+[31Jul2020 22:44:57.313] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/enchanted-book-tooltips.js
+[31Jul2020 22:44:57.313] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/ancient-tomes.js
+[31Jul2020 22:44:57.313] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/colored-enchantment-glint.js
+[31Jul2020 22:44:57.313] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\Reliquary-1.15.2-1.3.4.995.jar
+[31Jul2020 22:44:57.314] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Reliquary-1.15.2-1.3.4.995.jar with {xreliquary} mods - versions {1.15.2-1.3.4.995}
+[31Jul2020 22:44:57.315] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\Reliquary-1.15.2-1.3.4.995.jar with language javafml
+[31Jul2020 22:44:57.315] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\ruins-1.15.2.1.jar
+[31Jul2020 22:44:57.316] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ruins-1.15.2.1.jar with {ruins} mods - versions {1.15.2.1}
+[31Jul2020 22:44:57.317] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\ruins-1.15.2.1.jar with language javafml
+[31Jul2020 22:44:57.317] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\simpleplanes-1.15.2-2.0.3.0.jar
+[31Jul2020 22:44:57.317] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file simpleplanes-1.15.2-2.0.3.0.jar with {simpleplanes} mods - versions {2.0.3.0}
+[31Jul2020 22:44:57.318] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\simpleplanes-1.15.2-2.0.3.0.jar with language javafml
+[31Jul2020 22:44:57.318] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\StorageDrawers-1.15.2-7.0.2.jar
+[31Jul2020 22:44:57.318] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file StorageDrawers-1.15.2-7.0.2.jar with {storagedrawers} mods - versions {1.15.2-7.0.1}
+[31Jul2020 22:44:57.318] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\StorageDrawers-1.15.2-7.0.2.jar with language javafml
+[31Jul2020 22:44:57.318] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\structurize-0.13.31-RELEASE.jar
+[31Jul2020 22:44:57.319] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file structurize-0.13.31-RELEASE.jar with {structurize} mods - versions {0.13.31-RELEASE}
+[31Jul2020 22:44:57.319] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\structurize-0.13.31-RELEASE.jar with language javafml
+[31Jul2020 22:44:57.319] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\tinyprogressions-1.15.2-4.0.7.jar
+[31Jul2020 22:44:57.320] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file tinyprogressions-1.15.2-4.0.7.jar with {tp} mods - versions {4.0.7}
+[31Jul2020 22:44:57.320] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\tinyprogressions-1.15.2-4.0.7.jar with language javafml
+[31Jul2020 22:44:57.320] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\ToolBelt-1.15.2-1.14.1.jar
+[31Jul2020 22:44:57.321] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ToolBelt-1.15.2-1.14.1.jar with {toolbelt} mods - versions {1.14.1}
+[31Jul2020 22:44:57.321] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\ToolBelt-1.15.2-1.14.1.jar with language javafml
+[31Jul2020 22:44:57.321] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\TravelersBackpack-1.15.2-4.0.6.jar
+[31Jul2020 22:44:57.322] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file TravelersBackpack-1.15.2-4.0.6.jar with {travelersbackpack} mods - versions {4.0.6}
+[31Jul2020 22:44:57.322] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\TravelersBackpack-1.15.2-4.0.6.jar with language javafml
+[31Jul2020 22:44:57.322] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\Uppers-0.2.12.jar
+[31Jul2020 22:44:57.323] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Uppers-0.2.12.jar with {uppers} mods - versions {0.2.12}
+[31Jul2020 22:44:57.323] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\Uppers-0.2.12.jar with language javafml
+[31Jul2020 22:44:57.323] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\mods\walljump-forge-1.15.2-1.3.5.jar
+[31Jul2020 22:44:57.323] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file walljump-forge-1.15.2-1.3.5.jar with {walljump} mods - versions {1.15.2-1.3.5}
+[31Jul2020 22:44:57.324] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\mods\walljump-forge-1.15.2-1.3.5.jar with language javafml
+[31Jul2020 22:44:57.324] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-universal.jar
+[31Jul2020 22:44:57.324] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.15.2-31.2.0-universal.jar with {forge} mods - versions {31.2.0}
+[31Jul2020 22:44:57.325] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-universal.jar with language javafml
+[31Jul2020 22:44:57.325] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod fieldtomethodtransformers with Javascript path META-INF/fieldtomethodtransformers.js
+[31Jul2020 22:44:57.325] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/fieldtomethodtransformers.js
+[31Jul2020 22:44:57.325] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\bgduh\Desktop\server\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-server.jar
+[31Jul2020 22:44:57.329] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.15.2-31.2.0-server.jar with {minecraft} mods - versions {1.15.2}
+[31Jul2020 22:44:57.329] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\bgduh\Desktop\server\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-server.jar with language minecraft
+[31Jul2020 22:44:57.341] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 70 mandatory requirements
+[31Jul2020 22:44:57.342] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 2 mandatory mod requirements missing
+[31Jul2020 22:44:57.856] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[31Jul2020 22:44:57.857] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[31Jul2020 22:44:57.857] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[31Jul2020 22:44:57.857] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[31Jul2020 22:44:57.857] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/wiredamage.js
+[31Jul2020 22:44:57.984] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:57.985] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/arm_angles.js
+[31Jul2020 22:44:57.991] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:57.991] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/blockwirecollisions.js
+[31Jul2020 22:44:57.997] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:57.997] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/piston-structure-helper-override.js
+[31Jul2020 22:44:58.010] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.011] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/pistons-move-tes.js
+[31Jul2020 22:44:58.024] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.024] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/emotes.js
+[31Jul2020 22:44:58.031] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.031] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/fortune-hoes.js
+[31Jul2020 22:44:58.038] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.038] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/improved-sleeping.js
+[31Jul2020 22:44:58.049] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.049] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/items-in-chat.js
+[31Jul2020 22:44:58.056] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.056] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/springy-slime.js
+[31Jul2020 22:44:58.062] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.062] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/pickarang.js
+[31Jul2020 22:44:58.073] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.073] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/chain-linkage.js
+[31Jul2020 22:44:58.091] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.091] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/feeding-trough.js
+[31Jul2020 22:44:58.096] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.096] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/crabs.js
+[31Jul2020 22:44:58.101] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.101] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/chests-in-boats.js
+[31Jul2020 22:44:58.109] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.109] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/rotation-lock.js
+[31Jul2020 22:44:58.114] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.114] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/enchanted-book-tooltips.js
+[31Jul2020 22:44:58.119] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.120] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/ancient-tomes.js
+[31Jul2020 22:44:58.123] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.123] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/colored-enchantment-glint.js
+[31Jul2020 22:44:58.131] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.132] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/on_advancement.js
+[31Jul2020 22:44:58.137] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.137] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/campfire_smoke_hook.js
+[31Jul2020 22:44:58.198] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.198] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/random_tick_hook.js
+[31Jul2020 22:44:58.223] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.223] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from render-event-transformer.js
+[31Jul2020 22:44:58.246] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.246] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from javascript/block-statemap.js
+[31Jul2020 22:44:58.251] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.251] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from javascript/item-statemap.js
+[31Jul2020 22:44:58.255] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.255] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from apothasm/true-infinity.js
+[31Jul2020 22:44:58.258] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.258] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from apothasm/sundering.js
+[31Jul2020 22:44:58.261] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.261] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from apothasm/enchantment-datas.js
+[31Jul2020 22:44:58.264] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.264] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from apothasm/tempting.js
+[31Jul2020 22:44:58.268] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.268] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from apothasm/reflective.js
+[31Jul2020 22:44:58.271] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.271] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from apothasm/item-ench.js
+[31Jul2020 22:44:58.274] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.274] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from apothasm/calc-stack-ench.js
+[31Jul2020 22:44:58.277] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.277] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from apothasm/container-repair.js
+[31Jul2020 22:44:58.287] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.287] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from apothasm/enchantability.js
+[31Jul2020 22:44:58.291] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.291] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from apothasm/gui-repair.js
+[31Jul2020 22:44:58.294] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.294] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from apothasm/combat-rules.js
+[31Jul2020 22:44:58.297] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.298] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from apothasm/fishing-bobber.js
+[31Jul2020 22:44:58.302] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.302] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from apothasm/affix-entity-dmg.js
+[31Jul2020 22:44:58.306] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.306] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from apothasm/affix-extra-dmg.js
+[31Jul2020 22:44:58.309] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.309] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from apothasm/affix-prot-level.js
+[31Jul2020 22:44:58.313] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.313] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from apothasm/affix-user-hurt.js
+[31Jul2020 22:44:58.317] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.317] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from apothasm/stack-modifier-hack.js
+[31Jul2020 22:44:58.320] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.320] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from apothasm/item-use-hook.js
+[31Jul2020 22:44:58.323] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.323] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from apothasm/quark-matrix.js
+[31Jul2020 22:44:58.331] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.331] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from META-INF/fieldtomethodtransformers.js
+[31Jul2020 22:44:58.336] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Jul2020 22:44:58.343] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@8dbf56 to Target : METHOD {Lnet/minecraft/entity/Entity;} {func_145775_I} {()V}
+[31Jul2020 22:44:58.344] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1fe2691 to Target : METHOD {Lnet/minecraft/client/renderer/entity/model/BipedModel;} {func_225597_a_} {(Lnet/minecraft/entity/LivingEntity;FFFFF)V}
+[31Jul2020 22:44:58.344] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@19111ba to Target : METHOD {Lnet/minecraft/world/server/ServerWorld;} {func_184138_a} {(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;Lnet/minecraft/block/BlockState;I)V}
+[31Jul2020 22:44:58.344] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1ad1178 to Target : METHOD {Lnet/minecraft/block/PistonBlock;} {func_176319_a} {(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/Direction;Z)Z}
+[31Jul2020 22:44:58.344] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@37f145 to Target : METHOD {Lnet/minecraft/block/PistonBlock;} {func_176316_e} {(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;)V}
+[31Jul2020 22:44:58.344] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@699afc to Target : METHOD {Lnet/minecraft/tileentity/PistonTileEntity;} {func_73660_a} {()V}
+[31Jul2020 22:44:58.344] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@13a5a8a to Target : METHOD {Lnet/minecraft/tileentity/PistonTileEntity;} {func_145866_f} {()V}
+[31Jul2020 22:44:58.344] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@23b9c4 to Target : METHOD {Lnet/minecraft/client/renderer/tileentity/PistonTileEntityRenderer;} {func_225616_a_} {(Lnet/minecraft/tileentity/PistonTileEntity;FLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;II)V}
+[31Jul2020 22:44:58.345] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@15dce5c to Target : METHOD {Lnet/minecraft/block/PistonBlock;} {func_185646_a} {(Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/Direction;ZLnet/minecraft/util/Direction;)Z}
+[31Jul2020 22:44:58.345] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@14701b1 to Target : METHOD {Lnet/minecraft/block/PistonBlock;} {func_176319_a} {(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/Direction;Z)Z}
+[31Jul2020 22:44:58.345] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@dcfad9 to Target : METHOD {Lnet/minecraft/client/renderer/entity/model/BipedModel;} {func_225597_a_} {(Lnet/minecraft/entity/LivingEntity;FFFFF)V}
+[31Jul2020 22:44:58.345] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1b49fdf to Target : METHOD {Lnet/minecraft/enchantment/Enchantment;} {func_92089_a} {(Lnet/minecraft/item/ItemStack;)Z}
+[31Jul2020 22:44:58.345] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@2e9f5b to Target : METHOD {Lnet/minecraft/world/server/ServerWorld;} {func_72854_c} {()V}
+[31Jul2020 22:44:58.345] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1a34b26 to Target : METHOD {Lnet/minecraft/item/ItemStack;} {func_151000_E} {()Lnet/minecraft/util/text/ITextComponent;}
+[31Jul2020 22:44:58.345] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@c47c79 to Target : METHOD {Lnet/minecraftforge/client/model/pipeline/LightUtil;} {renderQuadColor} {(Lnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/client/renderer/model/BakedQuad;I)V}
+[31Jul2020 22:44:58.345] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@12553d9 to Target : METHOD {Lnet/minecraft/entity/Entity;} {func_213315_a} {(Lnet/minecraft/entity/MoverType;Lnet/minecraft/util/math/Vec3d;)V}
+[31Jul2020 22:44:58.345] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@13fd7a1 to Target : METHOD {Lnet/minecraft/enchantment/DamageEnchantment;} {func_92089_a} {(Lnet/minecraft/item/ItemStack;)Z}
+[31Jul2020 22:44:58.345] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@a2585b to Target : METHOD {Lnet/minecraft/enchantment/Enchantment;} {func_92089_a} {(Lnet/minecraft/item/ItemStack;)Z}
+[31Jul2020 22:44:58.345] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1b6c9c2 to Target : METHOD {Lnet/minecraft/enchantment/PiercingEnchantment;} {func_77326_a} {(Lnet/minecraft/enchantment/Enchantment;)Z}
+[31Jul2020 22:44:58.345] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@9cedb6 to Target : METHOD {Lnet/minecraft/util/DamageSource;} {func_76365_a} {(Lnet/minecraft/entity/player/PlayerEntity;)Lnet/minecraft/util/DamageSource;}
+[31Jul2020 22:44:58.346] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@195a6db to Target : METHOD {Lnet/minecraft/entity/Entity;} {func_70071_h_} {()V}
+[31Jul2020 22:44:58.346] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1f54172 to Target : METHOD {Lnet/minecraft/entity/item/minecart/AbstractMinecartEntity;} {func_70071_h_} {()V}
+[31Jul2020 22:44:58.346] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@9a6717 to Target : METHOD {Lnet/minecraft/entity/item/BoatEntity;} {func_70097_a} {()V}
+[31Jul2020 22:44:58.346] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@13cde6f to Target : METHOD {Lnet/minecraft/entity/item/BoatEntity;} {func_184231_a} {()V}
+[31Jul2020 22:44:58.346] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1091cad to Target : METHOD {Lnet/minecraft/entity/item/minecart/AbstractMinecartEntity;} {func_94095_a} {()V}
+[31Jul2020 22:44:58.346] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@663eaf to Target : METHOD {Lnet/minecraft/client/renderer/entity/EntityRendererManager;} {func_229084_a_} {(Lnet/minecraft/entity/Entity;DDDFFLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;I)V}
+[31Jul2020 22:44:58.346] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1bb5ceb to Target : METHOD {Lnet/minecraft/entity/ai/goal/TemptGoal;} {func_75250_a} {()Z}
+[31Jul2020 22:44:58.346] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@692555 to Target : METHOD {Lnet/minecraft/world/server/ServerWorld;} {func_217378_a} {(Lnet/minecraft/entity/player/PlayerEntity;ILnet/minecraft/util/math/BlockPos;I)V}
+[31Jul2020 22:44:58.346] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1a0ae41 to Target : METHOD {Lnet/minecraft/entity/item/BoatEntity;} {func_184179_bs} {()Lnet/minecraft/entity/Entity;}
+[31Jul2020 22:44:58.346] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@fe6cdc to Target : METHOD {Lnet/minecraft/item/BlockItem;} {func_195942_a} {(Lnet/minecraft/item/BlockItemUseContext;)Lnet/minecraft/util/ActionResultType;}
+[31Jul2020 22:44:58.346] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1fb3aec to Target : METHOD {Lnet/minecraft/client/gui/screen/EnchantmentScreen;} {render} {(IIF)V}
+[31Jul2020 22:44:58.346] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@6ff1cb to Target : METHOD {Lnet/minecraft/enchantment/EnchantmentHelper;} {func_82781_a} {(Lnet/minecraft/item/ItemStack;)Ljava/util/Map;}
+[31Jul2020 22:44:58.347] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@39a21 to Target : METHOD {Lnet/minecraft/client/renderer/ItemRenderer;} {func_229113_a_} {(Lnet/minecraft/client/renderer/IRenderTypeBuffer;Lnet/minecraft/client/renderer/RenderType;ZZ)Lcom/mojang/blaze3d/vertex/IVertexBuilder;}
+[31Jul2020 22:44:58.347] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@11e86b1 to Target : METHOD {Lnet/minecraft/client/renderer/RenderTypeBuffers;} {func_228486_a_} {(Lit/unimi/dsi/fastutil/objects/Object2ObjectLinkedOpenHashMap;Lnet/minecraft/client/renderer/RenderType;)V}
+[31Jul2020 22:44:58.347] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1c4e864 to Target : METHOD {Lnet/minecraft/client/renderer/ItemRenderer;} {func_229111_a_} {(Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/renderer/model/ItemCameraTransforms$TransformType;ZLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;IILnet/minecraft/client/renderer/model/IBakedModel;)V}
+[31Jul2020 22:44:58.347] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@a2a6be to Target : METHOD {Lnet/minecraft/client/renderer/entity/layers/ElytraLayer;} {func_225628_a_} {(Lcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;ILnet/minecraft/entity/LivingEntity;FFFFFF)V}
+[31Jul2020 22:44:58.347] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@2af059 to Target : METHOD {Lnet/minecraft/client/renderer/entity/layers/ArmorLayer;} {func_229129_a_} {(Lcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;Lnet/minecraft/entity/LivingEntity;FFFFFFLnet/minecraft/inventory/EquipmentSlotType;I)V}
+[31Jul2020 22:44:58.347] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@136c8e3 to Target : METHOD {Lnet/minecraft/client/multiplayer/ClientAdvancementManager;} {func_192799_a} {(Lnet/minecraft/network/play/server/SAdvancementInfoPacket;)V}
+[31Jul2020 22:44:58.347] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1a39ca9 to Target : METHOD {Lnet/minecraft/block/CampfireBlock;} {func_220098_a} {(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;ZZ)V}
+[31Jul2020 22:44:58.347] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@9344f5 to Target : METHOD {Lnet/minecraft/block/BlockState;} {func_196944_b} {(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Ljava/util/Random;)V}
+[31Jul2020 22:44:58.347] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@184d9c6 to Target : METHOD {Lnet/minecraft/fluid/IFluidState;} {func_206891_b} {(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Ljava/util/Random;)V}
+[31Jul2020 22:44:58.348] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@9c6245 to Target : METHOD {Lnet/minecraft/client/renderer/WorldRenderer;} {func_215319_a} {(IIIZ)V}
+[31Jul2020 22:44:58.348] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@10be7ab to Target : METHOD {Lnet/minecraft/client/renderer/BlockModelShapes;} {func_209553_a} {(Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/block/BlockState;)Lnet/minecraft/client/renderer/model/ModelResourceLocation;}
+[31Jul2020 22:44:58.348] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@14fb213 to Target : METHOD {Lnet/minecraft/client/renderer/model/ModelBakery;} {processLoading} {(Lnet/minecraft/profiler/IProfiler;)V}
+[31Jul2020 22:44:58.348] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@f60295 to Target : METHOD {Lnet/minecraft/item/ArrowItem;} {isInfinite} {(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/PlayerEntity;)Z}
+[31Jul2020 22:44:58.348] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@127cb44 to Target : METHOD {Lnet/minecraft/entity/LivingEntity;} {func_70672_c} {(Lnet/minecraft/util/DamageSource;F)F}
+[31Jul2020 22:44:58.348] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1234474 to Target : METHOD {Lnet/minecraft/enchantment/EnchantmentHelper;} {func_185291_a} {(ILnet/minecraft/item/ItemStack;Z)Ljava/util/List;}
+[31Jul2020 22:44:58.348] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@11cb129 to Target : METHOD {Lnet/minecraft/entity/ai/goal/TemptGoal;} {func_188508_a} {(Lnet/minecraft/item/ItemStack;)Z}
+[31Jul2020 22:44:58.348] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@120e575 to Target : METHOD {Lnet/minecraft/entity/LivingEntity;} {func_190629_c} {(Lnet/minecraft/entity/LivingEntity;)V}
+[31Jul2020 22:44:58.348] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@52747e to Target : METHOD {Lnet/minecraft/item/Item;} {func_77619_b} {()I}
+[31Jul2020 22:44:58.348] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@14b96a4 to Target : METHOD {Lnet/minecraft/enchantment/EnchantmentHelper;} {func_77514_a} {(Ljava/util/Random;IILnet/minecraft/item/ItemStack;)I;}
+[31Jul2020 22:44:58.348] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1d8ff1d to Target : METHOD {Lnet/minecraft/inventory/container/RepairContainer;} {func_82848_d} {()V}
+[31Jul2020 22:44:58.349] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1e9bc9e to Target : METHOD {Lnet/minecraft/enchantment/EnchantmentHelper;} {func_77513_b} {(Ljava/util/Random;Lnet/minecraft/item/ItemStack;IZ)Ljava/util/List;}
+[31Jul2020 22:44:58.349] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@b9cb99 to Target : METHOD {Lnet/minecraft/client/gui/screen/inventory/AnvilScreen;} {func_146979_b} {(II)V}
+[31Jul2020 22:44:58.349] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@130955c to Target : METHOD {Lnet/minecraft/util/CombatRules;} {func_188401_b} {(FF)F}
+[31Jul2020 22:44:58.349] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1faba70 to Target : METHOD {Lnet/minecraft/entity/projectile/FishingBobberEntity;} {func_190621_a} {(Lnet/minecraft/util/math/BlockPos;)V}
+[31Jul2020 22:44:58.349] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1adfedd to Target : METHOD {Lnet/minecraft/enchantment/EnchantmentHelper;} {func_151385_b} {(Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/entity/Entity;)V}
+[31Jul2020 22:44:58.349] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1301672 to Target : METHOD {Lnet/minecraft/enchantment/EnchantmentHelper;} {func_152377_a} {(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/CreatureAttribute;)F}
+[31Jul2020 22:44:58.349] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@eff87d to Target : METHOD {Lnet/minecraft/enchantment/EnchantmentHelper;} {func_77508_a} {(Ljava/lang/Iterable;Lnet/minecraft/util/DamageSource;)I}
+[31Jul2020 22:44:58.349] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@38e2aa to Target : METHOD {Lnet/minecraft/enchantment/EnchantmentHelper;} {func_151384_a} {(Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/entity/Entity;)V}
+[31Jul2020 22:44:58.349] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@7db926 to Target : METHOD {Lnet/minecraft/entity/SharedMonsterAttributes;} {func_111259_a} {(Lnet/minecraft/nbt/CompoundNBT;)Lnet/minecraft/entity/ai/attributes/AttributeModifier;}
+[31Jul2020 22:44:58.349] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@177a95d to Target : METHOD {Lnet/minecraft/item/ItemStack;} {func_196084_a} {(Lnet/minecraft/item/ItemUseContext;)Lnet/minecraft/util/ActionResultType;}
+[31Jul2020 22:44:58.349] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@68919e to Target : METHOD {Lvazkii/quark/oddities/module/MatrixEnchantingModule;} {construct} {()V}
+[31Jul2020 22:44:58.349] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@c53d82 to Target : CLASS {Lnet/minecraft/potion/EffectInstance;} {} {V}
+[31Jul2020 22:44:58.349] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6045c6 to Target : CLASS {Lnet/minecraft/block/FlowingFluidBlock;} {} {V}
+[31Jul2020 22:44:58.350] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@d6d775 to Target : CLASS {Lnet/minecraft/item/BucketItem;} {} {V}
+[31Jul2020 22:44:58.350] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@167cc70 to Target : CLASS {Lnet/minecraft/block/StairsBlock;} {} {V}
+[31Jul2020 22:44:58.350] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@45c9b3 to Target : CLASS {Lnet/minecraft/block/FlowerPotBlock;} {} {V}
+[31Jul2020 22:44:58.350] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@b3f208 to Target : CLASS {Lnet/minecraft/item/FishBucketItem;} {} {V}
+[31Jul2020 22:44:58.350] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[31Jul2020 22:44:58.359] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[31Jul2020 22:44:58.577] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_72854_c with desc ()V
+[31Jul2020 22:44:58.628] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_217378_a with desc (Lnet/minecraft/entity/player/PlayerEntity;ILnet/minecraft/util/math/BlockPos;I)V
+[31Jul2020 22:44:58.639] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_184138_a with desc (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;Lnet/minecraft/block/BlockState;I)V
+[31Jul2020 22:44:58.653] [main/INFO] [net.minecraftforge.coremod.CoreMod.immersiveengineering/COREMODLOG]: Inserted block update callback
+[31Jul2020 22:44:58.912] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_190629_c with desc (Lnet/minecraft/entity/LivingEntity;)V
+[31Jul2020 22:44:58.919] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_70672_c with desc (Lnet/minecraft/util/DamageSource;F)F
+[31Jul2020 22:44:58.977] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_70071_h_ with desc ()V
+[31Jul2020 22:44:58.981] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_213315_a with desc (Lnet/minecraft/entity/MoverType;Lnet/minecraft/util/math/Vec3d;)V
+[31Jul2020 22:44:59.013] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_145775_I with desc ()V
+[31Jul2020 22:44:59.020] [main/INFO] [net.minecraftforge.coremod.CoreMod.immersiveengineering/COREMODLOG]: Inserted wire collision callback
+[31Jul2020 22:44:59.644] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_77619_b with desc ()I
+[31Jul2020 22:44:59.711] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_92089_a with desc (Lnet/minecraft/item/ItemStack;)Z
+[31Jul2020 22:44:59.721] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_92089_a with desc (Lnet/minecraft/item/ItemStack;)Z
+[31Jul2020 22:45:00.163] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_206891_b with desc (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Ljava/util/Random;)V
+[31Jul2020 22:45:00.183] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forgeendertech/COREMODLOG]: SUCCEEDED!
+[31Jul2020 22:45:00.284] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_111259_a with desc (Lnet/minecraft/nbt/CompoundNBT;)Lnet/minecraft/entity/ai/attributes/AttributeModifier;
+[31Jul2020 22:45:00.350] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowingFluidBlock
+[31Jul2020 22:45:00.461] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_176316_e with desc (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;)V
+[31Jul2020 22:45:00.471] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_185646_a with desc (Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/Direction;ZLnet/minecraft/util/Direction;)Z
+[31Jul2020 22:45:00.475] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_176319_a with desc (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/Direction;Z)Z
+[31Jul2020 22:45:00.482] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_176319_a with desc (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/Direction;Z)Z
+[31Jul2020 22:45:00.707] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/StairsBlock
+[31Jul2020 22:45:01.116] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowerPotBlock
+[31Jul2020 22:45:01.309] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_220098_a with desc (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;ZZ)V
+[31Jul2020 22:45:01.323] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forgeendertech/COREMODLOG]: SUCCEEDED!
+[31Jul2020 22:45:02.489] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_145866_f with desc ()V
+[31Jul2020 22:45:02.496] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_73660_a with desc ()V
+[31Jul2020 22:45:03.302] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_82848_d with desc ()V
+[31Jul2020 22:45:03.779] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_92089_a with desc (Lnet/minecraft/item/ItemStack;)Z
+[31Jul2020 22:45:03.803] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_77326_a with desc (Lnet/minecraft/enchantment/Enchantment;)Z
+[31Jul2020 22:45:04.865] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_75250_a with desc ()Z
+[31Jul2020 22:45:04.882] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_188508_a with desc (Lnet/minecraft/item/ItemStack;)Z
+[31Jul2020 22:45:04.933] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_184179_bs with desc ()Lnet/minecraft/entity/Entity;
+[31Jul2020 22:45:06.786] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_196084_a with desc (Lnet/minecraft/item/ItemUseContext;)Lnet/minecraft/util/ActionResultType;
+[31Jul2020 22:45:06.794] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_151000_E with desc ()Lnet/minecraft/util/text/ITextComponent;
+[31Jul2020 22:45:07.059] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_70071_h_ with desc ()V
+[31Jul2020 22:45:08.970] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_195942_a with desc (Lnet/minecraft/item/BlockItemUseContext;)Lnet/minecraft/util/ActionResultType;
+[31Jul2020 22:45:09.046] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming isInfinite with desc (Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/PlayerEntity;)Z
+[31Jul2020 22:45:09.087] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/BucketItem
+[31Jul2020 22:45:09.120] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/FishBucketItem
+[31Jul2020 22:45:09.360] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/potion/EffectInstance
+[31Jul2020 22:45:09.391] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_190621_a with desc (Lnet/minecraft/util/math/BlockPos;)V
+[31Jul2020 22:45:12.918] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[31Jul2020 22:45:12.919] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Jul2020 22:45:12.920] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Jul2020 22:45:12.921] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[31Jul2020 22:45:12.922] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Jul2020 22:45:13.645] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.2
+[31Jul2020 22:45:13.658] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[31Jul2020 22:45:13.676] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_251]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_251]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_251]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_251]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_251]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_251]
+	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:105) [?:?]
+[31Jul2020 22:45:13.776] [Server thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 4535
+[31Jul2020 22:45:14.319] [Server thread/DEBUG] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
+[31Jul2020 22:45:14.346] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Using 4 threads for parallel mod-loading
+[31Jul2020 22:45:14.347] [Server thread/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Error during pre-loading phase
+net.minecraftforge.fml.ModLoadingException: Mod §ebotania§r requires §6forge§r §o31.2.13 or above§r
+§7Currently, §6forge§r§7 is §o31.2.0
+	at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:63) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:1.8.0_251]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.ReferencePipeline$7$1.accept(Unknown Source) ~[?:1.8.0_251]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_251]
+	at java.util.stream.ReferencePipeline.collect(Unknown Source) ~[?:1.8.0_251]
+	at net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:118) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.get(ModLoader.java:147) [?:?]
+	at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) [?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:122) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:613) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_251]
+[31Jul2020 22:45:14.361] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Mod §ebotania§r requires §6forge§r §o31.2.13 or above§r
+§7Currently, §6forge§r§7 is §o31.2.0,
+	Mod §ecraftingstation§r requires §6extratags§r §o1.0 or above§r
+§7Currently, §6extratags§r§7 is §o§nnot installed
+]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:184) ~[?:?]
+	at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:122) ~[?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:613) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_251]
+[31Jul2020 22:45:14.367] [Server thread/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 31.2 from cpw.mods.modlauncher.TransformingClassLoader@990e5c
+[31Jul2020 22:45:14.367] [Server thread/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 31.2.0
+[31Jul2020 22:45:14.367] [Server thread/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 31.2
+[31Jul2020 22:45:14.368] [Server thread/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[31Jul2020 22:45:14.386] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: C:\Users\bgduh\Desktop\server\.\crash-reports\crash-2020-07-31_22.45.14-server.txt
+[31Jul2020 22:45:14.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[31Jul2020 22:45:14.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[31Jul2020 22:45:14.473] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Exception stopping the server
+java.lang.RuntimeException: The server has failed to initialize correctly due to mod loading errors. Examine the crash report for more details.
+	at net.minecraftforge.common.DimensionManager.getWorld(DimensionManager.java:185) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_71218_a(MinecraftServer.java:1004) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213211_a(MinecraftServer.java:536) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_71260_j(MinecraftServer.java:568) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71260_j(DedicatedServer.java:550) ~[?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:676) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_251]
+[31Jul2020 22:45:14.474] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\world\serverconfig
+[31Jul2020 22:45:14.474] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
